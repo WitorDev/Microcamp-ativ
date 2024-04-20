@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Formulário</title>
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="form.html">Forms</a></li>
+            <li><a href="gallery.html">Galeria</a></li>
+        </ul>
+        <i class="fa-solid fa-bars fa-2x" onclick="showNavBar()"></i>
+    </nav>
+    <nav id="mobnavbar">
+        <ul id="mobnavlist">
+            <i class="fa-solid fa-close fa-2x" onclick="hideNavBar()"></i>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="form.html">Forms</a></li>
+            <li><a href="gallery.html">Galeria</a></li>
+        </ul>
+    </nav>
+
+    <form action="">
+    <div class="form-holder">
+        <div class="labels">
+            <label for="nome">Nome:</label>
+            <label for="endereço">Endereço:</label>
+        </div>
+        <div id="input-holder">
+            <div class="inputs1">
+                <input type="text" name="nome" size="85">
+                <input type="text" name="endereço" size="85">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="inputs2">
+        <label for="telRes">Telefone Residencial:</label><input type="text" size="20" name="telRes">
+        <label for="cel">Celular:</label><input type="text" size="20" name="cel">
+        <label for="rec">Rec.:</label><input type="text" size="20" name="rec">
+    </div>
+
+    <div class="inputs3">
+        <p>Interesse por qual departamento:</p>
+        <div id="checkbox01">
+            <input type="checkbox" name="comercial">
+            <label for="comercial">Comercial<label>
+        </div>
+        <div id="checkbox02">
+            <input type="checkbox" name="tecnico">
+            <label for="tecnico">Técnico<label>
+        </div>
+        <div id="checkbox03">
+            <input type="checkbox" name="transporte">
+            <label for="transporte">Transportes<label>
+        </div>
+        <div id="checkbox04">
+            <input type="checkbox" name="rh">
+            <label for="rh">RH<label>
+        </div>
+        <div id="checkbox05">
+            <input type="checkbox" name="ti">
+            <label for="ti">TI<label>
+        </div>
+    </div>
+
+    <div id="input-sexo">
+        <p>Sexo:</p>
+        <div id="radio1">
+            <input type="radio" name="masc">
+            <label for="masc">Masculino</label>
+        </div>
+        <div id="radio2">
+            <input type="radio" name="fem">
+            <label for="fem">Feminino</label>
+        </div>
+    </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>

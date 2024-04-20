@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    color: white;
+}
+body{
+    background-color: #074173;
+}
+
+/* Nav-Bar */
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+ul{
+    list-style: none;
+    width: 75%;
+
+    background-color: black;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+
+    color: white;
+
+    font-size: large;
+    background-color: black;
+}
+
+/* Form */
+
+.form-holder{
+    margin: 50px;
+    display: flex;
+}
+
+.labels{
+    margin-right: 85px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+#input-holder{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.inputs1{
+    display: flex;
+    flex-direction: column;
+}
+.inputs2{
+    display: flex;
+
+    margin: 0px 50px;
+    margin-bottom: 50px;
+}
+.inputs2 input{
+margin: 0px 5px;
+}
+.inputs3{
+    display: flex;
+
+    margin: 0px 50px;
+    margin-bottom: 50px;
+}
+.inputs3 p, label{
+margin-right: 10px;
+}
+
+#input-sexo{
+    display: flex;
+
+    margin: 0px 50px;
+}
+#input-sexo p{
+    margin-right: 210px;
+}
+#input-sexo input{
+    margin-right: 5px;
+}
+
+#mobnavbar{
+    display: none;
+
+    height: 100vh;
+
+    text-align: center;
+
+    background-color: black;
+}
+#mobnavlist{
+    flex-direction: column;
+    align-items: center;
+
+    margin: 50px auto;
+}
+i{
+    margin: 15px;
+}
